@@ -106,7 +106,7 @@ app.post("/login", (req, res) => {
 
 app.get("/home", (req, res) => {
   const email = req.body.email;
-  res.send(`Welcome ${email}! <br><br> <a href="/logout">Logout</a>`);
+  res.send(`Welcome back ${email}! <br><br> <a href="/logout"><button>Logout</button></a>`);
 });
 
 // app.get('/home', (req, res) => {
